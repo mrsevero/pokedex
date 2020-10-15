@@ -1,19 +1,12 @@
 {
-  "name": "pokedex",
-  "version": "1.0.0",
-  "description": "simple pokedex",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "name": "burnhop-node",
+  "version": "0.3.0",
+  "engines": {
+    "node": "12.x"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mrsevero/pokedex.git"
-  },
-  "author": "Bruno Severo",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mrsevero/pokedex/issues"
-  },
-  "homepage": "https://github.com/mrsevero/pokedex#readme"
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "firebase-tools": "^8.12.1"
+  }
 }
